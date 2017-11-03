@@ -10,6 +10,34 @@
 .container {
   display: inline-flex;
   justify-content: center;
+  align-items: center;
   border: 2px solid black;
   width: 1200px;
+}
+
+.header {
+  height: 69px;
+}
+
+.mission {
+  height: 700px;
+}
+
+.teas {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+
+}
+
+.locations {
+  height: 500px;
+}
+
+.contact {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
 }
