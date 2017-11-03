@@ -1,4 +1,15 @@
-h1 {
-  font-size: 50px;
-  text-align: center;
+/* Tea Cozy CSS by Adam Judelson */
+
+.content {
+  display: inline-flex;
+  flex-direction: column;
+  width: 1200px;
+
+}
+
+.container {
+  display: inline-flex;
+  justify-content: center;
+  border: 2px solid black;
+  width: 1200px;
 }
