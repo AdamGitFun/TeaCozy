@@ -3,7 +3,7 @@
 .content {
   display: inline-flex;
   flex-direction: column;
-  width: 1200px;
+  width: 1300px;
   background-color: black;
   color: white;
 
@@ -23,17 +23,18 @@
 
 .mission {
   height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
 }
 
 .teas {
   display: flex;
   justify-content: center;
   width: 1000px;
-
 }
 
 .locations {
   height: 500px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
 }
 
 .contact {
@@ -41,5 +42,7 @@
 }
 
 .copyright {
-  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+
 }
