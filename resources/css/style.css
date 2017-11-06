@@ -77,7 +77,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   width: 1000px;
-  
+
 }
 
 #img-carousel {
@@ -97,6 +97,42 @@ body {
 #locations {
   height: 500px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  flex-direction: column;
+  justify-content: center;
+  border: 5px solid blue;
+}
+
+#loc-header {
+  text-align: center;
+  padding: 0px 0px 15px 0px;
+
+
+}
+
+.loc-names {
+  display: flex;
+  width: 1000px;
+  justify-content: space-around;
+
+}
+
+.loc-details {
+  display: flex;
+  width: 300px;
+  height: 277px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  margin: 0px 20px;
+
+}
+
+.loc-details h3 {
+  margin: 10px;
+}
+.loc-details span {
+  font-size: 22px;
 }
 
 #contact {
