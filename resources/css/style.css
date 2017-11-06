@@ -21,7 +21,6 @@ body {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-
   width: 1200px;
 }
 
@@ -49,9 +48,7 @@ body {
 #mission {
   height: 700px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-  display: flex;
 
-  border: 5px blue dotted;
 }
 
 .mission-text {
@@ -59,9 +56,14 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
+
   align-items: center;
   background-color: black;
-  border: 5px white solid;
+
+}
+
+.mission-text h2, h4 {
+  margin: 10px;
 }
 
 #teas {
