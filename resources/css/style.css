@@ -21,15 +21,29 @@ body {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid blue;
+
   width: 1200px;
 }
 
 #header {
+  display: inline-flex;
   height: 69px;
   display: flex;
+  padding: 0px 10px 0px 10px;
+  justify-content: space-between;
 
+}
 
+#logo {
+  height: 50px;
+
+}
+
+.nav {
+  display: flex;
+  text-decoration: underline;
+  width: 400px;
+  justify-content: space-around;
 }
 
 #mission {
