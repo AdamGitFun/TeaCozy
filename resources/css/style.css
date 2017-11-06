@@ -1,11 +1,19 @@
 /* Tea Cozy CSS by Adam Judelson */
 
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+
+}
+
 .content {
   display: inline-flex;
   flex-direction: column;
   width: 1300px;
   background-color: black;
-  color: white;
+  color: seashell;
 
 }
 
@@ -17,31 +25,47 @@
   width: 1200px;
 }
 
-.header {
+#header {
   height: 69px;
+  display: flex;
+
+
 }
 
-.mission {
+#mission {
   height: 700px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  display: flex;
+
+  border: 5px blue dotted;
 }
 
-.teas {
+.mission-text {
+  width: 1200px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  border: 5px white solid;
+}
+
+#teas {
   display: flex;
   justify-content: center;
   width: 1000px;
 }
 
-.locations {
+#locations {
   height: 500px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
 }
 
-.contact {
+#contact {
   height: 200px;
 }
 
-.copyright {
+#copyright {
   display: flex;
   justify-content: flex-start;
 
